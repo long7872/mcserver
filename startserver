@@ -61,5 +61,7 @@ echo "Type [screen -r playit] to view your Server IP"
 echo ""
 echo "> To stop your server, type './stopserver' to stop"
 
+chmod +x ./.checkserver
+
 echo -e '\nchecking if server has launched properly'
 ./.checkserver 2> crash.log
