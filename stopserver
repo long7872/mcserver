@@ -7,3 +7,21 @@ echo "To delete your server, type './uninstall' to uninstall and delete your ser
 
 # Kill all Screen
 killall screen
+
+# Get the last commit message
+last_commit=$(git log -1 --pretty=format:%s)
+
+# Determine the next commit number
+if [[ $last_commit =~ ^([0-9]+)\. ]]; then
+    next_commit_number=$(( ${BASH_REMATCH[1]} + 1 ))
+else
+    next_commit_number=1
+fi
+
+# Construct the commit message with the next number
+commit_message="$next_commit_number. "
+
+# Commit with the constructed message
+git add .
+git commit -m "$commit_message"
+git push
