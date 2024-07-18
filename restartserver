@@ -1,0 +1,14 @@
+#!/bin/bash
+export MAIN_DIR=$PWD
+
+chmod +x *
+
+clear
+echo "> Server Restart!"
+
+
+cd $MAIN_DIR
+./stopserver
+
+cd $MAIN_DIR
+./startserver

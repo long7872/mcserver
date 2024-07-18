@@ -1,0 +1,65 @@
+[18Jul2024 03:42:27.793] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, -nogui]
+[18Jul2024 03:42:27.797] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21+35-LTS-2513
+[18Jul2024 03:42:27.801] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21 by Oracle Corporation; OS Linux arch amd64 version 6.1.85+
+[18Jul2024 03:42:28.174] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[18Jul2024 03:42:28.583] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///home/long77872/mcserver/server/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[18Jul2024 03:42:29.237] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[18Jul2024 03:42:31.778] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [-nogui]
+[18Jul2024 03:42:33.745] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/long77872/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/long77872/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/long77872/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/long77872/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[18Jul2024 03:42:33.991] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/long77872/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/long77872/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/long77872/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/long77872/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[18Jul2024 03:42:50.251] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.24, for MC 1.21 with MCP 20240613.102039
+[18Jul2024 03:42:50.260] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.24 Initialized
+[18Jul2024 03:42:50.439] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[18Jul2024 03:42:52.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Jul2024 03:42:54.433] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 51.0.24 Target: 51.0.25
+[18Jul2024 03:42:56.021] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18Jul2024 03:43:02.429] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[18Jul2024 03:43:03.455] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[18Jul2024 03:43:04.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[18Jul2024 03:43:04.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Jul2024 03:43:04.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Jul2024 03:43:04.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Jul2024 03:43:04.959] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Jul2024 03:43:05.289] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Jul2024 03:43:05.508] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Jul2024 03:43:05.508] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Jul2024 03:43:05.509] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Jul2024 03:43:05.510] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Jul2024 03:43:05.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Jul2024 03:43:16.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Jul2024 03:43:17.945] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jul2024 03:43:17.951] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jul2024 03:43:17.956] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jul2024 03:43:18.173] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jul2024 03:43:18.377] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1705 ms
+[18Jul2024 03:43:18.383] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.797s)! For help, type "help"
+[18Jul2024 03:43:18.438] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Jul2024 03:45:02.140] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: long7872[/127.81.64.72:40559] logged in with entity id 59 at (-198.03205893423268, 44.0, -512.3410240327004)
+[18Jul2024 03:45:02.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: long7872 joined the game
+[18Jul2024 03:45:03.829] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[18Jul2024 03:59:45.805] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: long7872 lost connection: Disconnected
+[18Jul2024 03:59:45.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: long7872 left the game
+[18Jul2024 04:00:23.414] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+com.sun.jna.LastErrorException: [5] Input/output error
+	at SECURE-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.Native.invokeVoid(Native Method) ~[jna-5.14.0.jar!/:5.14.0 (b0)]
+	at SECURE-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.Function.invoke(Function.java:418) ~[jna-5.14.0.jar!/:5.14.0 (b0)]
+	at SECURE-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.Function.invoke(Function.java:364) ~[jna-5.14.0.jar!/:5.14.0 (b0)]
+	at SECURE-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.Library$Handler.invoke(Library.java:270) ~[jna-5.14.0.jar!/:5.14.0 (b0)]
+	at SECURE-BOOTSTRAP/jdk.proxy2/jdk.proxy2.$Proxy17.tcgetattr(Unknown Source) ~[?:?]
+	at SECURE-BOOTSTRAP/jline.terminal.jna@3.12.1/org.jline.terminal.impl.jna.linux.LinuxNativePty.doSetAttr(LinuxNativePty.java:84) ~[jline-terminal-jna-3.12.1.jar!/:?]
+	at SECURE-BOOTSTRAP/jline.terminal@3.12.1/org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar!/:?]
+	at SECURE-BOOTSTRAP/jline.terminal@3.12.1/org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar!/:?]
+	at SECURE-BOOTSTRAP/jline.reader@3.12.1/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar!/:?]
+	at SECURE-BOOTSTRAP/jline.reader@3.12.1/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar!/:?]
+	at TRANSFORMER/forge@51.0.24/net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.21-51.0.24-universal.jar!/:?]
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:108) ~[forge-1.21-51.0.24-server.jar!/:?]
+[18Jul2024 04:00:23.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Jul2024 04:00:23.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Jul2024 04:00:23.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Jul2024 04:00:23.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18Jul2024 04:00:23.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18Jul2024 04:00:23.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18Jul2024 04:00:23.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Jul2024 04:00:23.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Jul2024 04:00:23.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Jul2024 04:00:23.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
