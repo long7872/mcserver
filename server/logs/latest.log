@@ -1,56 +1,258 @@
-[18Jul2024 18:21:03.451] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, -nogui]
-[18Jul2024 18:21:03.455] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21+35-LTS-2513
-[18Jul2024 18:21:03.457] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21 by Oracle Corporation; OS Linux arch amd64 version 6.1.85+
-[18Jul2024 18:21:03.623] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[18Jul2024 18:21:03.860] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///home/minelor03/mcserver/server/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[18Jul2024 18:21:04.314] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[18Jul2024 18:21:05.897] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [-nogui]
-[18Jul2024 18:21:06.622] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[18Jul2024 18:21:06.819] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[18Jul2024 18:21:18.831] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.24, for MC 1.21 with MCP 20240613.102039
-[18Jul2024 18:21:18.832] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.24 Initialized
-[18Jul2024 18:21:18.851] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[18Jul2024 18:21:20.388] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18Jul2024 18:21:21.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 51.0.24 Target: 51.0.25
-[18Jul2024 18:21:24.133] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18Jul2024 18:21:28.869] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[18Jul2024 18:21:29.374] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[18Jul2024 18:21:30.370] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
-[18Jul2024 18:21:30.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[18Jul2024 18:21:30.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[18Jul2024 18:21:30.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18Jul2024 18:21:31.036] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[18Jul2024 18:21:31.126] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[18Jul2024 18:21:31.209] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18Jul2024 18:21:31.210] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[18Jul2024 18:21:31.210] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18Jul2024 18:21:31.211] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[18Jul2024 18:21:31.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[18Jul2024 18:21:34.947] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.252.220.161:39131] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
-[18Jul2024 18:21:35.728] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.71.62.141:33741] Disconnecting MODDED connection attempt: Server is still starting! Please wait before reconnecting.
-[18Jul2024 18:21:43.633] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.252.220.161:58039] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
-[18Jul2024 18:21:44.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18Jul2024 18:21:44.969] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Jul2024 18:21:44.970] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Jul2024 18:21:45.370] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1047 ms
-[18Jul2024 18:21:45.372] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.142s)! For help, type "help"
-[18Jul2024 18:21:45.397] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18Jul2024 18:21:51.968] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hndk0707[/127.211.246.110:40029] logged in with entity id 10 at (-1682.6346336838753, -46.504799122994086, 82.94456300405825)
-[18Jul2024 18:21:52.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hndk0707 joined the game
-[18Jul2024 18:21:56.254] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[18Jul2024 18:21:56.876] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: onelm18[/127.71.62.141:48641] logged in with entity id 192 at (-194.2403770431881, 79.0, -625.5584073434843)
-[18Jul2024 18:21:56.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: onelm18 joined the game
-[18Jul2024 18:22:09.247] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MingSoDeep[/127.252.220.161:44643] logged in with entity id 580 at (-280.9411558796419, 102.0, -520.390404403739)
-[18Jul2024 18:22:09.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MingSoDeep joined the game
-[18Jul2024 18:22:17.733] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6481ms or 129 ticks behind
-[18Jul2024 18:33:48.612] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MingSoDeep lost connection: Disconnected
-[18Jul2024 18:33:48.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MingSoDeep left the game
-[18Jul2024 18:35:23.613] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hndk0707 lost connection: Timed out
-[18Jul2024 18:35:23.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hndk0707 left the game
-[18Jul2024 18:35:23.669] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[18Jul2024 18:35:41.108] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onelm18 lost connection: Disconnected
-[18Jul2024 18:35:41.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: onelm18 left the game
-[18Jul2024 18:35:51.333] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+[19Jul2024 04:26:15.684] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, -nogui]
+[19Jul2024 04:26:15.696] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21+35-LTS-2513
+[19Jul2024 04:26:15.710] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21 by Oracle Corporation; OS Linux arch amd64 version 6.1.85+
+[19Jul2024 04:26:16.121] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[19Jul2024 04:26:16.528] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///home/minelor03/mcserver/server/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[19Jul2024 04:26:17.106] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[19Jul2024 04:26:19.307] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [-nogui]
+[19Jul2024 04:26:20.750] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[19Jul2024 04:26:21.018] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/minelor03/mcserver/server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[19Jul2024 04:26:36.178] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.24, for MC 1.21 with MCP 20240613.102039
+[19Jul2024 04:26:36.178] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.24 Initialized
+[19Jul2024 04:26:36.318] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[19Jul2024 04:26:38.585] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Jul2024 04:26:40.798] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 51.0.24 Target: 51.0.26
+[19Jul2024 04:26:41.984] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19Jul2024 04:26:47.988] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[19Jul2024 04:26:48.484] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[19Jul2024 04:26:49.430] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[19Jul2024 04:26:49.431] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19Jul2024 04:26:49.431] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[19Jul2024 04:26:49.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Jul2024 04:26:49.667] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[19Jul2024 04:26:49.948] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[19Jul2024 04:26:50.145] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19Jul2024 04:26:50.146] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[19Jul2024 04:26:50.146] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19Jul2024 04:26:50.147] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[19Jul2024 04:26:50.349] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[19Jul2024 04:26:59.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Jul2024 04:27:00.512] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Jul2024 04:27:00.515] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Jul2024 04:27:00.881] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[19Jul2024 04:27:01.303] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1434 ms
+[19Jul2024 04:27:01.304] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.061s)! For help, type "help"
+[19Jul2024 04:27:01.333] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[19Jul2024 04:28:43.341] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: onelm18[/127.71.62.141:47591] logged in with entity id 10 at (-199.30000001192093, 85.0, -634.5691349780589)
+[19Jul2024 04:28:43.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: onelm18 joined the game
+[19Jul2024 04:28:46.216] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
+[19Jul2024 04:32:37.746] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FuckYouMan![/127.40.11.91:56415] logged in with entity id 841 at (1409.0488842319678, 53.0, 54.51612261636517)
+[19Jul2024 04:32:37.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! joined the game
+[19Jul2024 04:42:39.657] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: StrongDuong[/127.184.253.15:42909] logged in with entity id 1943 at (-1527.5546130460066, -44.0, 206.12123312917456)
+[19Jul2024 04:42:39.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StrongDuong joined the game
+[19Jul2024 04:49:27.563] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: napoleon[/127.89.126.226:57113] logged in with entity id 4206 at (1418.7828251242368, 54.0, 57.22539193801636)
+[19Jul2024 04:49:27.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon joined the game
+[19Jul2024 04:50:43.718] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1400, y=65, z=48} BlockPos{x=1399, y=64, z=50}
+[19Jul2024 04:52:25.656] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StrongDuong lost connection: Timed out
+[19Jul2024 04:52:25.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StrongDuong left the game
+[19Jul2024 04:52:25.757] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[19Jul2024 04:54:33.764] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: StrongDuong[/127.184.253.15:38411] logged in with entity id 5870 at (-1546.300000011921, 64.0, 261.69999998807907)
+[19Jul2024 04:54:33.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StrongDuong joined the game
+[19Jul2024 04:56:56.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> ma lag vcc
+[19Jul2024 04:57:15.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> muot maf
+[19Jul2024 04:57:24.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <onelm18> fake ip mang qua japan di khoe
+[19Jul2024 04:57:26.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> t thay binh thu0ng]
+[19Jul2024 04:57:28.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <onelm18> bao muot
+[19Jul2024 04:58:25.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> o dung vpn a
+[19Jul2024 05:00:09.157] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StrongDuong lost connection: Disconnected
+[19Jul2024 05:00:09.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StrongDuong left the game
+[19Jul2024 05:00:24.137] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: napoleon moved too quickly! -7.165841234235813,7.0,-1.308260885562163
+[19Jul2024 05:00:38.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: napoleon moved too quickly! 8.198087066914468,0.0,-6.0647224007200435
+[19Jul2024 05:01:05.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was burned to a crisp while fighting Zombie
+[19Jul2024 05:01:22.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: napoleon moved too quickly! 4.5284625250480985,3.0,-8.60786379631236
+[19Jul2024 05:06:36.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! has made the advancement [A Seedy Place]
+[19Jul2024 05:10:26.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> gio lam gi
+[19Jul2024 05:11:05.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> may farm
+[19Jul2024 05:11:20.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> farm gi
+[19Jul2024 05:12:03.629] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: StrongDuong[/127.170.227.27:50113] logged in with entity id 10183 at (-1546.300000011921, 64.0, 261.30000001192093)
+[19Jul2024 05:12:03.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StrongDuong joined the game
+[19Jul2024 05:12:19.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> de sang t di kiem go xay them nha
+[19Jul2024 05:12:42.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> xay tum lum lam gi??
+[19Jul2024 05:13:03.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> the di mine
+[19Jul2024 05:13:19.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> fake vpn van k muot noi
+[19Jul2024 05:13:29.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> do wifi yeu
+[19Jul2024 05:13:37.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> t ko sai vpn van muot ma
+[19Jul2024 05:13:42.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <onelm18> fake mạng của khỏe luôn á
+[19Jul2024 05:13:52.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <onelm18> ý là chuyển địa chỉ mạng sang japan
+[19Jul2024 05:13:54.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> e nghia
+[19Jul2024 05:14:05.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> di bat bof voi cuu ve ko
+[19Jul2024 05:14:12.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> sao bat
+[19Jul2024 05:14:17.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> co lua nay
+[19Jul2024 05:14:19.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> tk quyen do ha
+[19Jul2024 05:14:21.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> sang r di
+[19Jul2024 05:14:23.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> uh
+[19Jul2024 05:14:27.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> sang
+[19Jul2024 05:14:36.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> hay la di mine trc
+[19Jul2024 05:14:43.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> roi ve bat sau
+[19Jul2024 05:14:44.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> dia chi nghia oi dm
+[19Jul2024 05:14:46.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> mine die quaif :))
+[19Jul2024 05:14:55.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> di mine kiem sat lam do
+[19Jul2024 05:15:07.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> cam it do roi di thoi
+[19Jul2024 05:15:07.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> toanf chet
+[19Jul2024 05:15:13.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> lieu an nhieu
+[19Jul2024 05:15:18.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> di
+[19Jul2024 05:15:34.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> bay o dau t qua
+[19Jul2024 05:15:47.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> toa do t gui tren mess do
+[19Jul2024 05:15:55.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> len tren coi di khoer
+[19Jul2024 05:15:59.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> 1418 60 56
+[19Jul2024 05:16:16.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> 3k block dm
+[19Jul2024 05:16:43.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> e
+[19Jul2024 05:16:59.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> nghia
+[19Jul2024 05:17:16.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> cuoc sat nay
+[19Jul2024 05:17:25.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> ngu di phantom danh dau qua
+[19Jul2024 05:17:27.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> t vut cho m r do
+[19Jul2024 05:17:32.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> di
+[19Jul2024 05:17:36.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> ok
+[19Jul2024 05:17:55.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> cam do an nhieu vo
+[19Jul2024 05:18:21.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> quen lam duoc
+[19Jul2024 05:18:37.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> dm 5 con phantom
+[19Jul2024 05:18:46.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> duoc
+[19Jul2024 05:18:51.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> co duoc k
+[19Jul2024 05:18:55.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> đuốc ko có
+[19Jul2024 05:19:08.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> ve lam duoc
+[19Jul2024 05:19:09.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> ngheo :))
+[19Jul2024 05:19:49.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> a co than r
+[19Jul2024 05:25:15.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: napoleon moved too quickly! 2.6480085841483287,-10.059537480889912,0.01137032062523069
+[19Jul2024 05:25:15.688] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FuckYouMan! moved too quickly! -0.7468238051974367,0.0,10.021824415471622
+[19Jul2024 05:25:20.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> t toi cho bay day
+[19Jul2024 05:25:45.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> kim cuong
+[19Jul2024 05:25:58.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: napoleon moved too quickly! 1.7639192436072335,-3.233632006042477,-9.307929380168718
+[19Jul2024 05:26:07.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> cac
+[19Jul2024 05:26:16.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> 6 vien
+[19Jul2024 05:26:42.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> t dem bad omen qua =))
+[19Jul2024 05:26:47.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> la gi\
+[19Jul2024 05:27:03.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StrongDuong has made the advancement [Voluntary Exile]
+[19Jul2024 05:27:17.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was shot by Skeleton
+[19Jul2024 05:27:20.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! was slain by Zombie
+[19Jul2024 05:27:49.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> cay\
+[19Jul2024 05:28:40.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> xuong day nghia
+[19Jul2024 05:29:28.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> may anh nay ga vai
+[19Jul2024 05:29:46.382] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FuckYouMan! moved too quickly! -4.853170337363281,-2.0,-8.614401540001055
+[19Jul2024 05:29:59.840] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: napoleon moved too quickly! -5.406311676483028,0.0,8.508794619188823
+[19Jul2024 05:30:06.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> lag v
+[19Jul2024 05:30:53.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FuckYouMan! moved too quickly! 0.374782296336889,-4.464159374955443,9.223526550541006
+[19Jul2024 05:31:08.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> nghia
+[19Jul2024 05:31:15.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> dau
+[19Jul2024 05:31:36.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> dau r
+[19Jul2024 05:31:38.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> sao k vo discord nois cho de
+[19Jul2024 05:31:56.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FuckYouMan! moved too quickly! 7.516326852577549,-0.7663679939575232,6.839860931469765
+[19Jul2024 05:33:46.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> dau r
+[19Jul2024 05:34:56.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> sap chet cmnr
+[19Jul2024 05:38:38.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> cho bay cos langf k
+[19Jul2024 05:38:49.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> mois di qua lang to vc
+[19Jul2024 05:39:37.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! was shot by Skeleton
+[19Jul2024 05:39:42.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was shot by Skeleton
+[19Jul2024 05:39:49.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> di xuong
+[19Jul2024 05:43:17.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> adu
+[19Jul2024 05:43:25.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> xay cai d j day
+[19Jul2024 05:43:41.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> ua
+[19Jul2024 05:43:57.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> cuc gi trong do
+[19Jul2024 05:44:01.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> cuc spam
+[19Jul2024 05:44:01.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> bay dau
+[19Jul2024 05:44:05.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> no spam quai
+[19Jul2024 05:44:46.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> bay dau r
+[19Jul2024 05:44:52.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> lay sat k
+[19Jul2024 05:45:39.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> tu\
+[19Jul2024 05:45:40.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> tu tu
+[19Jul2024 05:45:44.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> lam do sat da
+[19Jul2024 05:45:46.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> co ban nung k
+[19Jul2024 05:46:10.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> t dang cam 1 stack block sat
+[19Jul2024 05:46:19.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> ddang o duoi dat
+[19Jul2024 05:46:33.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> ok t xay may farm day
+[19Jul2024 05:46:34.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> lam do mac vao cho do chet ngu
+[19Jul2024 05:46:54.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> m co than k nghia
+[19Jul2024 05:47:00.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> ko co
+[19Jul2024 05:47:39.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> e nghia
+[19Jul2024 05:47:45.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> khien nay
+[19Jul2024 05:47:50.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> nhan shift de dung
+[19Jul2024 05:48:23.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon has made the advancement [Suit Up]
+[19Jul2024 05:48:26.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> aoo quan do
+[19Jul2024 05:50:23.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> con sat k
+[19Jul2024 05:50:32.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> ko co
+[19Jul2024 05:50:34.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> di
+[19Jul2024 05:50:51.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <onelm18> ae
+[19Jul2024 05:50:54.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <onelm18> =
+[19Jul2024 05:55:21.069] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hndk0707[/127.211.246.110:57395] logged in with entity id 29442 at (-1680.699999988079, 21.0, -30.49402372365667)
+[19Jul2024 05:55:21.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hndk0707 joined the game
+[19Jul2024 05:57:15.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> bay chat cay d trong laij af
+[19Jul2024 05:57:23.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> thieu go vc
+[19Jul2024 05:57:46.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! was shot by Skeleton
+[19Jul2024 05:57:57.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was slain by Spider
+[19Jul2024 05:58:20.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> bay
+[19Jul2024 05:58:28.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> di
+[19Jul2024 05:58:34.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> xuong t nho duong
+[19Jul2024 05:58:57.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> ra langf di dang nuoi gaf
+[19Jul2024 05:59:05.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! was shot by Skeleton
+[19Jul2024 05:59:37.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was shot by Skeleton
+[19Jul2024 05:59:45.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> mia
+[19Jul2024 06:00:43.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was shot by Skeleton
+[19Jul2024 06:01:00.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> chay nhanh':))
+[19Jul2024 06:01:21.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> duong noao
+[19Jul2024 06:01:36.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> xuong di
+[19Jul2024 06:01:42.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! was shot by Skeleton
+[19Jul2024 06:01:45.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> thoi
+[19Jul2024 06:01:55.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> quyr
+[19Jul2024 06:02:03.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> 11v kc do
+[19Jul2024 06:02:29.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> giau ac
+[19Jul2024 06:02:52.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> 5p la nos tuwj mat do
+[19Jul2024 06:04:28.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! hit the ground too hard
+[19Jul2024 06:05:18.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was shot by Skeleton
+[19Jul2024 06:05:51.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> chay di
+[19Jul2024 06:06:12.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> che do khos nen ske ban chuan lam
+[19Jul2024 06:06:22.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> tu bo di qua 5p r
+[19Jul2024 06:06:44.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> gui vi tri t xuongs
+[19Jul2024 06:06:59.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: onelm18 has made the advancement [Hidden in the Depths]
+[19Jul2024 06:07:28.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> ma anh lam kiem netherit r
+[19Jul2024 06:08:26.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> kiem dc r
+[19Jul2024 06:08:52.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> dữ
+[19Jul2024 06:08:57.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> tt
+[19Jul2024 06:09:03.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hndk0707> t
+[19Jul2024 06:09:12.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> co obsidian k quyen
+[19Jul2024 06:10:03.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> dang dau
+[19Jul2024 06:10:07.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> day
+[19Jul2024 06:10:09.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> sau
+[19Jul2024 06:10:32.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> tung do do
+[19Jul2024 06:10:34.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> len ko
+[19Jul2024 06:10:40.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> hay di tiep
+[19Jul2024 06:10:54.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> qua day
+[19Jul2024 06:11:10.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> daau
+[19Jul2024 06:11:42.405] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1457, y=64, z=74} BlockPos{x=1456, y=62, z=75}
+[19Jul2024 06:12:04.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was shot by Skeleton
+[19Jul2024 06:12:35.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> ac
+[19Jul2024 06:12:38.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> trau
+[19Jul2024 06:13:43.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> xuong day
+[19Jul2024 06:13:46.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> zombie trau vc
+[19Jul2024 06:14:21.713] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-92, y=14, z=-31} BlockPos{x=-100, y=26, z=-15}
+[19Jul2024 06:15:05.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! was shot by Skeleton
+[19Jul2024 06:15:48.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! was shot by Skeleton
+[19Jul2024 06:18:16.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was slain by Zombie
+[19Jul2024 06:18:44.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> nản ghê
+[19Jul2024 06:18:48.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> th t der sat trong ruong o lang
+[19Jul2024 06:18:53.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> di day
+[19Jul2024 06:18:55.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! walked into the danger zone due to Skeleton
+[19Jul2024 06:18:57.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> khoan
+[19Jul2024 06:19:33.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> nhat 11kc r ve\
+[19Jul2024 06:22:42.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> nhat chuaw
+[19Jul2024 06:22:46.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> chua
+[19Jul2024 06:23:12.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> hanh xac nghia quas
+[19Jul2024 06:24:47.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> chac mat r
+[19Jul2024 06:25:54.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> mat r
+[19Jul2024 06:26:00.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> bay mau
+[19Jul2024 06:26:07.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> tu tu di
+[19Jul2024 06:26:16.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> lan sau rut kinh nghiem
+[19Jul2024 06:27:09.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> co do an k
+[19Jul2024 06:27:37.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> farm it sat r ve
+[19Jul2024 06:27:55.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> dm t dua tan 15 block sat
+[19Jul2024 06:28:16.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> bo dau
+[19Jul2024 06:28:29.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StrongDuong> lang gan cho bay a
+[19Jul2024 06:28:30.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> mat 11kc tiec vl
+[19Jul2024 06:29:44.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> quyen dau
+[19Jul2024 06:31:59.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon was shot by Skeleton
+[19Jul2024 06:32:22.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> sống ở dưới lụm xác nha
+[19Jul2024 06:32:52.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> di bat cuu di
+[19Jul2024 06:32:55.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FuckYouMan!> t mine cho
+[19Jul2024 06:33:03.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <napoleon> lua à
+[19Jul2024 06:33:17.362] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
 com.sun.jna.LastErrorException: [5] Input/output error
 	at SECURE-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.Native.invokeVoid(Native Method) ~[jna-5.14.0.jar!/:5.14.0 (b0)]
 	at SECURE-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.Function.invoke(Function.java:418) ~[jna-5.14.0.jar!/:5.14.0 (b0)]
@@ -64,7 +266,16 @@ com.sun.jna.LastErrorException: [5] Input/output error
 	at SECURE-BOOTSTRAP/jline.reader@3.12.1/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar!/:?]
 	at TRANSFORMER/forge@51.0.24/net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.21-51.0.24-universal.jar!/:?]
 	at TRANSFORMER/minecraft@1.21/net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:108) ~[forge-1.21-51.0.24-server.jar!/:?]
-[18Jul2024 18:35:51.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[18Jul2024 18:35:51.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[18Jul2024 18:35:51.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[18Jul2024 18:35:51.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19Jul2024 06:33:17.390] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onelm18 lost connection: Disconnected
+[19Jul2024 06:33:17.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: onelm18 left the game
+[19Jul2024 06:33:17.409] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FuckYouMan! lost connection: Disconnected
+[19Jul2024 06:33:17.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FuckYouMan! left the game
+[19Jul2024 06:33:17.425] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: napoleon lost connection: Disconnected
+[19Jul2024 06:33:17.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: napoleon left the game
+[19Jul2024 06:33:17.439] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StrongDuong lost connection: Disconnected
+[19Jul2024 06:33:17.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StrongDuong left the game
+[19Jul2024 06:33:17.463] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hndk0707 lost connection: Disconnected
+[19Jul2024 06:33:17.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hndk0707 left the game
+[19Jul2024 06:33:17.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19Jul2024 06:33:17.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19Jul2024 06:33:17.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds

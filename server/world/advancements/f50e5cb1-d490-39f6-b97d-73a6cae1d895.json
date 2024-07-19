@@ -512,6 +512,7 @@
     "criteria": {
       "minecraft:cave_spider": "2024-07-17 20:25:32 +0000",
       "minecraft:skeleton": "2024-07-16 10:47:16 +0000",
+      "minecraft:phantom": "2024-07-19 06:15:30 +0000",
       "minecraft:witch": "2024-07-16 16:37:51 +0000",
       "minecraft:spider": "2024-07-16 10:27:13 +0000",
       "minecraft:zombie": "2024-07-16 10:19:15 +0000",
@@ -2745,6 +2746,30 @@
   "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
     "criteria": {
       "has_iron_ore": "2024-07-18 18:04:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2024-07-18 18:45:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-07-18 19:49:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-07-18 19:49:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-07-18 19:49:12 +0000"
     },
     "done": true
   },
